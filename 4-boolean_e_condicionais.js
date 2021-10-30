@@ -68,3 +68,25 @@ switch (cor_favorita) {
         console.log("feche os olhos")
         break;
 }
+
+
+
+
+//EXERCÍCIOS
+//Verifique se a sua idade é maior que a de algum parente
+//dependendo do resultado colaca no console "É maior", "É Igual", "É menor"
+
+let idade = 22;
+let idade_pai = 50;
+if (idade>idade_pai) {
+    console.log("É maior");
+} else if(idade < idade_pai){
+    console.log("É menor");
+    
+}else{
+    console.log("É Igual");
+
+}
+
+//Qual é o valor retornado da seguinte expressão: 
+let expressao = (5 - 2) && (5 - ' ') && (5 - 2);
