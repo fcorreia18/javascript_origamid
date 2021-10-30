@@ -12,3 +12,13 @@ if (NaN){}
 if (null){}
 if (null){}
 if (''){}// ou "" ``
+
+
+//Truthy
+//toda expressão que tenha um dos valores abaixo resultará em true
+
+if(1){}//true
+if(" "){}//true
+if(true){}//true
+if(-5){}//true
+if({}){}//true
