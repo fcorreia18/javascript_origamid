@@ -19,4 +19,9 @@ console.log(typeof vaiViajar, typeof nome, typeof dataDeViagem);
 
 let numero = 22;
 let mes = "4"
-console.log(numero ++mes)
+console.log(numero + +mes)
+
+
+let texto = "Fui ao trabalho no decorrer do feriado";
+
+console.log(`Ontem ${texto}`)
