@@ -8,5 +8,15 @@ let temCarro = true //boolean
 let simbolo = Symbol() //symbol
 let dataDeViagem; //undefined
 let vaiViajar = null //null
-let semDados = empty //empty
 let abilidades = {} //object
+
+//Verificando o tipo de dado usando o typeof
+
+console.log(typeof vaiViajar, typeof nome, typeof dataDeViagem);
+
+
+//concatenado expressões
+
+let numero = 22;
+let mes = "4"
+console.log(numero ++mes)
