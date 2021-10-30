@@ -26,7 +26,7 @@ if({}){}//true
 
 
 //Operadores Logicos &&
-
+//Retorna o ultimo valor true que encontrar ou o primeiro false que encontrar
 true && true // true
 true && false// false
 5 && '5'//true
@@ -35,3 +35,16 @@ true && false// false
 //AND encontre um valor false pra negar toda expressão
 "Gato" && false //false
 (5 >= 5) && (3 < 6)//true
+
+
+//Operadores Logicos ||
+//Sempre retorna o primeiro valor true que encontrar
+
+true || true// true
+true || false// true
+false || true//true
+'Gato' || 'Cão'// 'Gato'
+(5 - 5) || (5 + 5)// 10
+'Gato' || false// 'Gato'
+(5 >= 5) || (3 < 6)//true
+
