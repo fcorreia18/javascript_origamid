@@ -30,11 +30,11 @@ if({}){}//true
 true && true // true
 true && false// false
 5 && '5'//true
-"Gato" && "Cão"//retorna "Cão" por ser a ultima string encontrada
+let teste ='Gato' && 'Cão'; console.log(teste); //retorna "Cão" por ser a ultima string encontrada
 (5 - 5) && (5 + 5)//0 vai retornar 0 porque 0 é um valor false, e basta que o 
 //AND encontre um valor false pra negar toda expressão
 "Gato" && false //false
-(5 >= 5) && (3 < 6)//true
+let testando = (5 >= 5) && (3 < 6); console.log(testando);//true
 
 
 //Operadores Logicos ||
@@ -48,3 +48,23 @@ false || true//true
 'Gato' || false// 'Gato'
 (5 >= 5) || (3 < 6)//true
 
+
+
+//TRABALHANDO COM SWITCH
+
+let cor_favorita = "Azul";
+
+switch (cor_favorita) {
+    case "Azul":
+        console.log("Olhe para o céu");
+        break;
+    case "Amarelo":
+        console.log("Olhe para o sol")
+        break;
+    case "Verde":
+        console.log("Olhe para a floresta")
+        break;
+    default:
+        console.log("feche os olhos")
+        break;
+}
