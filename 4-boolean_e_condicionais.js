@@ -81,7 +81,7 @@ let idade_pai = 50;
 if (idade>idade_pai) {
     console.log("É maior");
 } else if(idade < idade_pai){
-    console.log("É menor");
+    console.log(5 - ' ');
     
 }else{
     console.log("É Igual");
@@ -89,4 +89,33 @@ if (idade>idade_pai) {
 }
 
 //Qual é o valor retornado da seguinte expressão: 
-let expressao = (5 - 2) && (5 - ' ') && (5 - 2);
+let expressao = (5 - 2) && (5 - ' ') && (5 - 2);//3
+
+//Verifique se as seguintes variáveis são truthy ou false:
+let nome = "Francisco"//true;
+let anos = 22;//true
+let possui_doutorado = false;//false
+let emprego_futuro;//false
+let dinheiro_na_conta = 0;//false
+console.log(!!nome,!!anos ,!!possui_doutorado ,!!emprego_futuro, !!dinheiro_na_conta);
+//Compare o valor total de habitantes na china e em angola
+
+let Angola = 25000
+let china = 990000
+
+
+//O que irá aparecer no console?
+
+if (('Gato' === 'gato') && (5-2)) {
+    console.log("verdadeiro");
+} else {
+    console.log("falso");
+}
+
+//O que irá aparecer no console?
+
+if (('Gato' === 'gato') || (5-2)) {
+    console.log("verdadeiro");
+} else {
+    console.log("falso");
+}
