@@ -19,6 +19,19 @@ if (''){}// ou "" ``
 
 if(1){}//true
 if(" "){}//true
+if("Francisco"){}//true
 if(true){}//true
 if(-5){}//true
 if({}){}//true
+
+
+//Operadores Logicos &&
+
+true && true // true
+true && false// false
+5 && '5'//true
+"Gato" && "Cão"//retorna "Cão" por ser a ultima string encontrada
+(5 - 5) && (5 + 5)//0 vai retornar 0 porque 0 é um valor false, e basta que o 
+//AND encontre um valor false pra negar toda expressão
+"Gato" && false //false
+(5 >= 5) && (3 < 6)//true
