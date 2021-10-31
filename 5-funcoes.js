@@ -9,8 +9,9 @@ const Truthy = (valor)=>{
 Truthy("lsal 9");
 
 let square = (...lados)=>{
-    lados.map((i)=>{
-        return i + i;
-    });
+ let result =   lados.reduce((value, ac)=>{
+    return value + ac;
+ }, 0)
+    return result;
 }
-console.log(square(1, 1,1,1));
+console.log(square(1, 9,1,1));
