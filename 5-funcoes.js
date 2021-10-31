@@ -8,4 +8,9 @@ const Truthy = (valor)=>{
 
 Truthy("lsal 9");
 
-let 
+let square = (...lados)=>{
+    lados.map((i)=>{
+        return i + i;
+    });
+}
+console.log(square(1, 1,1,1));
