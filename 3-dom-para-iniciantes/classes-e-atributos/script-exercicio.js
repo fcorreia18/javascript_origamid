@@ -1,21 +1,14 @@
-//mostre no console cada paragrafo do site
-const paragrafos = document.querySelectorAll('p');
-paragrafos.forEach(item => console.log(item.innerText));//or textContent
+//Adicione a class ativo a todos os itens do menu
 
+const menus = document.querySelectorAll('.menu li');
 
-//Como corrigir os erros abaixo?
+menus.forEach(li=>li.classList.add('ativo'));
 
-const imgs = document.querySelectorAll('img');
-
-imgs.forEach((item, index) => {
-    console.log(item, index);
-})
-
-let i = 0;
-imgs.forEach(()=>{
-    console.log(i++);
-})
-
-imgs.forEach(()=>i++)
-
+//remova a classe ativo de todos os itens do menu e mantenha apenas no primeiro
+menus.forEach((li, index)=>{
+    if (index != 0) {
+        li.classList.remove('ativo')
+    }
+});
+console.log(menus);
 
