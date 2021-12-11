@@ -7,11 +7,15 @@ paragrafos.forEach(item => console.log(item.innerText));//or textContent
 
 const imgs = document.querySelectorAll('img');
 
-imgs.forEach(item, index => {
+imgs.forEach((item, index) => {
     console.log(item, index);
 })
 
 let i = 0;
-imgs.forEach(=>{
-    i++;
+imgs.forEach(()=>{
+    console.log(i++);
 })
+
+imgs.forEach(()=>i++)
+
+
