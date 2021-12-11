@@ -23,3 +23,8 @@ imgs.forEach(img => {
     }
     return console.log("não tem");
 })
+
+//Modifique o href do link externo no menu
+const li = document.querySelectorAll('.menu li a');
+li[3].setAttribute('href','www.meu-site.com');
+console.log(li[3].getAttribute('href'));
