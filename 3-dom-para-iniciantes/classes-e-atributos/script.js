@@ -19,7 +19,20 @@ console.log(animais.attributes['data-texto']);
 const img = document.querySelector('img');
 
 console.log(img.getAttribute('src'))//retorna o valor do atributo requerido
+
+img.setAttribute('alt','É uma raposa')
 console.log(img.getAttributeNames())//retorna um array com os nomes dos atributos
 
+console.log(img.hasAttribute('src'));//retorna true or false
+//img.removeAttribute('src')//remove o atributo
+if (img.hasAttribute('src')) {
+    console.log("src existe");
+} else {
+    console.log("src não existe");
+}
 
-
+if (img.hasAttributes()) {//aqui é verificado se a tag img tem algum atributo
+    console.log("tem atributos")
+} else {
+    console.log(" não tem atributos")
+}
