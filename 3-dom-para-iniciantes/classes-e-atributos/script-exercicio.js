@@ -12,3 +12,14 @@ menus.forEach((li, index)=>{
 });
 console.log(menus);
 
+
+
+//Verificar se as imagens possuem o atributo alt
+const imgs = document.querySelectorAll('img');
+imgs.forEach(img => {
+    if (img.hasAttribute('alt')) {
+        console.log("tem o atributo");
+        return;
+    }
+    return console.log("não tem");
+})
