@@ -28,3 +28,8 @@ imgs.forEach(img => {
 const li = document.querySelectorAll('.menu li a');
 li[3].setAttribute('href','www.meu-site.com');
 console.log(li[3].getAttribute('href'));
+
+// // Outra maneira de fazer o último exercício (Maneira do professor)
+// const link = document.querySelector('a[href^=http]');
+// link.setAttribute('href','www.google.com')
+// console.log(link)
