@@ -1,5 +1,5 @@
 let imagens = document.querySelectorAll('ul.animais-lista li>img');
-console.log(imagens)
+imagens.forEach(element => console.log(element));
 
 let links = document.querySelectorAll("a[href^='#']");
 console.log(links);
@@ -12,3 +12,5 @@ console.log(first_h2);
 
 let last_p = document.querySelector('footer p');
 console.log(last_p)
+
+
