@@ -16,3 +16,10 @@ console.log(menu.classList)
 const animais = document.querySelector('.animais');
 console.log(animais.attributes['data-texto']);
 
+const img = document.querySelector('img');
+
+console.log(img.getAttribute('src'))//retorna o valor do atributo requerido
+console.log(img.getAttributeNames())//retorna um array com os nomes dos atributos
+
+
+
