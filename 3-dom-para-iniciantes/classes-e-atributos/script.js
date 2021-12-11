@@ -10,3 +10,9 @@ menu.classList.replace('azul', 'outraclasse')
 menu.className += " nova classe";//maneira antiga de manipular classes
 console.log(menu.classList)
 
+
+//ATRIBUTOS
+
+const animais = document.querySelector('.animais');
+console.log(animais.attributes.id.value);
+
