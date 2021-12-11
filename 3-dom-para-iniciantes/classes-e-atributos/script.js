@@ -14,5 +14,5 @@ console.log(menu.classList)
 //ATRIBUTOS
 
 const animais = document.querySelector('.animais');
-console.log(animais.attributes.id.value);
+console.log(animais.attributes['data-texto']);
 
